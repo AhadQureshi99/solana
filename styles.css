@@ -382,15 +382,7 @@ nav a {
   margin-top: 1rem;
 }
 
-.col-built1 {
-  position: relative;
-}
 
-.built-img {
-  position: absolute;
-  height: 320px;
-  left: 0%;
-}
 
 .solana-fluid {
   margin-top: 8rem;
@@ -481,9 +473,16 @@ width: 50%;
   color: #9d9dae;
 }
 
+.responsive-img {
+  width: 100%;
+  height: auto;
+}
+
 @media (max-width: 750px) {
-  .container img {
-    display: none;
+
+
+  .p-container{
+    padding: 0;
   }
 
   .d-flex {
@@ -569,4 +568,11 @@ width: 50%;
 
 
 
+}
+
+
+@media (max-width: 576px) {
+  .responsive-img {
+    object-fit: contain;
+  }
 }
