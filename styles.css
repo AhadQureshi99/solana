@@ -40,10 +40,14 @@ body p {
   position: relative;
 }
 
-.im1 {
-  position: absolute;
-  object-fit: cover;
+.img1{
   z-index: -1;
+  right: -60%;
+}
+.img2{
+  z-index: -1;
+  left: -60%;
+  top: -10%;
 }
 
 .ch1 {
@@ -295,7 +299,7 @@ nav a {
   border-radius: 15px;
 }
 
-.real-col1 {
+.card1 {
   background-image: url("./assets/photos/image\ \(4\).webp");
   background-position: center;
   background-size: cover;
@@ -304,7 +308,7 @@ nav a {
   border-radius: 15px;
 }
 
-.real-col2 {
+.card2 {
   background-image: url("./assets/photos/image\ \(9\).webp");
   background-position: center;
   background-size: cover;
@@ -312,7 +316,7 @@ nav a {
   padding: 2rem;
   border-radius: 15px;
 }
-.real-col3 {
+.card3 {
   background-image: url("./assets/photos/image\ \(3\).webp");
   background-position: center;
   background-size: cover;
@@ -321,9 +325,7 @@ nav a {
   border-radius: 15px;
 }
 
-.real-row2 {
-  gap: 2.9rem;
-}
+
 
 .circle-button {
   display: inline-flex;
