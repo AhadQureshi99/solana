@@ -3,14 +3,34 @@
   padding: 0;
 }
 
+:root{
+ --secondary:#848895;
+}
+
+form .bi-search{
+  color: #848895;
+}
+
 body {
   background-color: #121212;
   color: white;
   overflow-x: hidden !important;
 }
+nav input::placeholder{
+  color: #848895 !important;
+}
 
 body p {
   color: #dbdbdb;
+}
+
+.navbar-brand{
+  background-color: transparent;
+}
+
+nav a{
+  background-color: gray;
+  font-size: 1.1rem !important;
 }
 
 .buildbtn {
